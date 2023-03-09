@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(imagess/bg.jpg);
+    background-size: cover;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+
+h1,h3,h4{
+    font-family: 'Playfair Display', serif;
+}
+
+
+.main{
+    width: 450px;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Shantell Sans', cursive;
+
+}
+.social{
+    color: rgb(255, 255, 255);
+    transition: color 0.2s;
+    text-decoration: none;
+    padding: 20px;
+   
+}
+.social:hover{
+    color: rgb(110, 96, 96);
+}
